@@ -1,0 +1,19 @@
+
+                      Make some loops
+[33m                 wait » [0m[90mfunctional[0m[2K[0G[36m         104,118 op/s[0m[90m » functional[0m
+[33m                 wait » [0m[90mwhile[0m[2K[0G[36m         878,304 op/s[0m[90m » while[0m
+[33m                 wait » [0m[90mfor ... in[0m[2K[0G[36m         377,498 op/s[0m[90m » for ... in[0m
+[33m                 wait » [0m[90mfor[0m[2K[0G[36m         721,593 op/s[0m[90m » for[0m
+[33m                 wait » [0m[90mforEach[0m[2K[0G[36m         541,716 op/s[0m[90m » forEach[0m
+
+
+[90m  Suites:  [0m1
+[90m  Benches: [0m5
+[90m  Elapsed: [0m5,120.16 ms
+
+functional x 100,053 ops/sec ±1.37% (60 runs sampled)
+while x 814,543 ops/sec ±2.31% (66 runs sampled)
+for ... in x 357,631 ops/sec ±1.85% (65 runs sampled)
+for x 668,946 ops/sec ±1.29% (69 runs sampled)
+forEach x 499,989 ops/sec ±2.07% (69 runs sampled)
+Fastest is while
